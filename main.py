@@ -11,9 +11,11 @@ import smtplib
 import ssl
 import os
 
-load_dotenv()
+#load_dotenv()
 
-email_password = os.getenv("EMAIL_PASSWORD")
+#email_password = os.getenv("EMAIL_PASSWORD")
+
+email_password = os.environ["EMAIL_PASSWORD"]
 
 with open("config.json", "r") as c:
     config = json.load(c)
