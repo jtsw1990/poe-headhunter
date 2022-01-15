@@ -1,0 +1,32 @@
+{
+    "league": "Scourge",
+    "cheapest_n": 5,
+    "ex_threshold": 65,  
+    "port": 465,
+    "smtp_server": "smtp.gmail.com",
+    "sender_email": "jtsw1990@gmail.com",
+    "receiver_email": "jtsw1990@gmail.com",
+    "payload": {
+        "query": {
+          "status": {
+            "option": "online"
+          },
+          "name": "Headhunter",
+          "type": "Leather Belt",
+          "stats": [
+            {
+              "type": "and",
+              "filters": []
+            }
+          ]
+        },
+        "sort": {
+          "price": "asc"
+        }
+      },
+   "headers": {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
+    "Content-Type": "application/json",
+    "Cookie": "POESESSID=8d961d449a7fce8899caeacb7caf8732"
+   } 
+}
