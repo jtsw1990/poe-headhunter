@@ -1,5 +1,5 @@
 # poe-headhunter-tracker
-![example workflow](https://github.com/github.com/jtsw1990/poe-headhunter/actions/workflows/workflow.yml/badge.svg)
+![example workflow](https://github.com/jtsw1990/poe-headhunter/actions/workflows/workflow.yml/badge.svg)
 
 Simple bot to automatically track and report headhunter prices below a threshold through email.
 
