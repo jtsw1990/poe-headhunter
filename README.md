@@ -1,5 +1,5 @@
 # poe-headhunter-tracker
-
+![example workflow](https://github.com/jtsw1990/poe-headhunter/actions/workflows/workflow.yml/badge.svg)
 
 Simple bot to automatically track and report headhunter prices below a threshold through email.
 
@@ -62,6 +62,6 @@ More details can be found [here]()
 | requests  | 2.26.0 | Library for RESTFUL calls to POE Trade's API |
 | pytz  | 2021.3 | Timezone converter for elapsed time formatting |
 | tabulate | 0.8.9 | String formatting for neater email reporting |
-| numpy | TBC | General data wrangling |
-| pandas | TBC | General data wrangling |
+| numpy | 1.22.1 | General data wrangling |
+| pandas | 1.3.5 | General data wrangling |
 | python-dotenv | 0.19.2 | For secure local secrets management |
