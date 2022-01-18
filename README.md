@@ -32,10 +32,10 @@ The bot can technically handle any item query, but is currently built primarily 
 ## Running locally
 
 The script can be run both manually and automatically in a secured fashion, without needing the user to expose any passwords or secrets.
-Running manually will only call the API and check the listings once.
+Running manually will only run the script to call the API and check the listings once. For recurring automated workflows, please refer to the next section
 
-- run `setup.bat` file, which creates a .env file
-- open `.env` with a text editor and enter email secret in the following format:
+- double click to run `setup_env.bat` file, which creates a .env file
+- open `.env` with a text editor and replace the email secret in the following format:
     `EMAIL_PASSWORD=REPLACE_WITH_YOUR_PASSWORD`
 - run `python main.py` to start the script
 
@@ -55,10 +55,21 @@ More details can be found [here]()
 - Ensure that the `cron_schedule` is as per requirements in `workflow.yml`. It is defaulted to a 30-minute cadence
 - `commit` and `push` local script back into your own repository to kick off the schedule
 
+
+## Endpoints
+
+| Description | Endpoint |
+| :---------- | :---------- |
+| Affixes | https://www.pathofexile.com/api/trade/data/stats |
+| Leagues | https://www.pathofexile.com/api/trade/data/leagues |
+| Static resources | https://www.pathofexile.com/api/trade/data/static |
+
+
+
 # Dependencies
 
 | Name  | Version | Purpose |
-| ------------- | ------------- | ----------- |
+| :------------ | :------------ | :---------- |
 | requests  | 2.26.0 | Library for RESTFUL calls to POE Trade's API |
 | pytz  | 2021.3 | Timezone converter for elapsed time formatting |
 | tabulate | 0.8.9 | String formatting for neater email reporting |
